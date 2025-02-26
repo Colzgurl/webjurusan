@@ -1,8 +1,6 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
 
-
-
 ?>
 
 
@@ -143,6 +141,21 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </div>
             </div>
         </div>
+
+        <div class="achievement-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="overflow-hidden">
+                    <img src="https://source.unsplash.com/random/800x600/?circuit" alt="Science Fair" class="w-full h-48 object-cover">
+                </div>
+                <div class="p-6">
+                    <span class="category-badge text-sm text-blue-600 font-semibold">Research</span>
+                    <h3 class="text-xl font-bold text-gray-800 mt-2 hover:text-blue-600 transition-colors duration-300">Science Fair Gold Medal</h3>
+                    <p class="text-gray-600 mt-2">Research project on renewable energy solutions earned top honors at the state science fair.</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <span class="text-sm text-gray-500">5 Oct 2023</span>
+                        <span class="text-sm font-semibold text-gray-700 hover:text-blue-600 transition-colors duration-300">Michael Chen</span>
+                    </div>
+                </div>
+            </div>
      <!-- Newsletter Subscription -->
 <div class="mt-12 bg-blue-50 rounded-xl p-8">
     <div class="max-w-2xl mx-auto text-center">
